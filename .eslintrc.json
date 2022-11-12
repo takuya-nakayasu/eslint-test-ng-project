@@ -36,7 +36,12 @@
             "style": "kebab-case"
           }
         ],
-        "angular-file-naming/component-filename-suffix": "error",
+        "angular-file-naming/component-filename-suffix": [
+          "error",
+          {
+            "suffixes": ["component", "page", "view", "component.mock"]
+          }
+        ],
         "angular-file-naming/directive-filename-suffix": "error",
         "angular-file-naming/module-filename-suffix": "error",
         "angular-file-naming/pipe-filename-suffix": "error",
